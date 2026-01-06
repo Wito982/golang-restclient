@@ -97,7 +97,7 @@ func init() {
 	flag.BoolVar(&mockUpEnv, "mock", false,
 		"Use 'mock' flag to tell package rest that you would like to use mockups.")
 
-	flag.Parse()
+	//flag.Parse()
 	startMockupServ()
 }
 
